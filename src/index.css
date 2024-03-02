@@ -1,13 +1,112 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: black;
+}
+
+@media only screen and (max-width: 635px) {
+  .login_logo {
+    width: 15vmax;
+    top: 10px;
+    left: 4vmax;
+  }
+
+  .login_button {
+
+    top: 3vmax;
+    right: 5vmax;
+    font-size: 15px;
+  }
+
+  .login_body h1 {
+    font-size: 4vmax;
+
+  }
+
+  .login_body h2 {
+    margin-bottom: 1vmax;
+    font-size: 2.3vmax;
+
+  }
+
+  .login_body h3 {
+
+    font-size: 2vmax;
+
+  }
+
+  .login_body {
+
+    padding: 2vmax;
+  }
+
+  .login_body .login_form button {
+
+    font-size: 1.8vmax;
+    padding: 5px 22px;
+
+  }
+
+  .login_body .login_form input {
+
+    font-size: 15px;
+    padding: 5px 18px;
+  }
+
+  .banner {
+    height: 246px;
+  }
+
+  .nav_content .logo {
+    width: 70px;
+  }
+
+  .banner_content {
+    margin-left: 10px;
+    padding-top: 60px;
+    /* text-align: center; */
+    height: 190px;
+
+  }
+
+  .banner-title {
+    font-size: 28px;
+  }
+
+  .banner_buttons button {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 6px 15px;
+
+  }
+
+  .banner_description {
+    width: 50vmax;
+    line-height: 0.9;
+    padding-top: 20px;
+    font-size: 10px;
+  }
+
+  .row {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-size: 2vmax;
+  }
+
+  .row_posters {
+
+    padding: 10px;
+  }
+
+  .largeImage {
+    max-height: 160px;
+  }
+
 }
